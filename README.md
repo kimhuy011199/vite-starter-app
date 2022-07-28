@@ -4,9 +4,10 @@
 
 # Vite Starter App
 
-Frontend environment for building JavaScript applications with Vite ⚡️
+Frontend environment for building static website with Vite, Handlebar and TailwindCSS ⚡️
 
 - Init third party Node.js module
+- Include vite plugin handlebars
 - Include TailwindCSS config
 - Optimized static assets: fonts, images, icons...
 - Ready to build production and deloyment
@@ -32,4 +33,7 @@ npm run build
 - `main.js`: Main javascript file
 - `index.html`: HTML template
 - `style.css`: TailwindCSS style
+- `data.json`: Handlebar data context using in template
 - `assets`: Assets files, images, fonts...
+- `vite.config.js`: Vitejs config file
+- `tailwind.config.js`: TailwindCSS config file
