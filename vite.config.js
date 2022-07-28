@@ -1,4 +1,10 @@
-// vite.config.js
+import handlebars from 'vite-plugin-handlebars';
+import data from './data.json';
+
 export default {
-  // config options
+  plugins: [
+    handlebars({
+      context: data,
+    }),
+  ],
 };

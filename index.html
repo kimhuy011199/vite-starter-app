@@ -42,6 +42,19 @@
       <section class="section-features" data-aos="fade-up">
         <h2 class="section-title">Vite Features ⚡️</h2>
         <ul class="features-list">
+          {{#each features}}
+          <li class="features-item">
+            <div class="features-box">
+              <div class="features-icon">
+                <img src="{{icon}}" alt="{{title}}" />
+              </div>
+              <h3 class="features-title">{{title}}</h3>
+              <p class="features-desc">{{desc}}</p>
+            </div>
+          </li>
+          {{/each}}
+        </ul>
+        <!-- <ul class="features-list">
           <li class="features-item">
             <div class="features-box">
               <div class="features-icon">
@@ -128,7 +141,7 @@
               </p>
             </div>
           </li>
-        </ul>
+        </ul> -->
       </section>
       <footer class="footer">
         <p class="copy">Vite starter app with TailwindCSS</p>
