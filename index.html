@@ -4,10 +4,136 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Vite Starter App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="app">
+      <header class="header">
+        <a class="header-link" href="https://vitejs.dev/" target="_blank">
+          <img
+            class="header-logo"
+            src="/assets/icons/vite.svg"
+            alt="Vite logo"
+          />
+          <span>Vite</span>
+        </a>
+      </header>
+      <section class="section-intro">
+        <div class="intro-content">
+          <h1 class="intro-title">
+            <span class="intro-vite">Vite</span> Next Generation Frontend
+            Tooling
+          </h1>
+          <p class="intro-desc">
+            Get ready for a development environment that can finally catch up
+            with you.
+          </p>
+          <code class="intro-code">$ npm create vite@latest</code>
+        </div>
+        <div class="intro-image">
+          <img
+            class="intro-logo"
+            src="/assets/icons/vite.svg"
+            alt="Vite logo"
+          />
+        </div>
+      </section>
+      <section class="section-features" data-aos="fade-up">
+        <h2 class="section-title">Vite Features ⚡️</h2>
+        <ul class="features-list">
+          <li class="features-item">
+            <div class="features-box">
+              <div class="features-icon">
+                <img
+                  src="/assets/icons/instant-server-start.svg"
+                  alt="Instant Server Start"
+                />
+              </div>
+              <h3 class="features-title">Instant Server Start</h3>
+              <p class="features-desc">
+                On demand file serving over native ESM, no bundling required!
+              </p>
+            </div>
+          </li>
+          <li class="features-item">
+            <div class="features-box">
+              <div class="features-icon">
+                <img
+                  src="/assets/icons/lightning-fast-hmr.svg"
+                  alt="Lightning Fast HMR"
+                />
+              </div>
+              <h3 class="features-title">Lightning Fast HMR</h3>
+              <p class="features-desc">
+                Hot Module Replacement (HMR) that stays fast regardless of app
+                size.
+              </p>
+            </div>
+          </li>
+          <li class="features-item">
+            <div class="features-box">
+              <div class="features-icon">
+                <img
+                  src="/assets/icons/rich-features.svg"
+                  alt="Rich Features"
+                />
+              </div>
+              <h3 class="features-title">Rich Features</h3>
+              <p class="features-desc">
+                Out-of-the-box support for TypeScript, JSX, CSS and more.
+              </p>
+            </div>
+          </li>
+          <li class="features-item">
+            <div class="features-box">
+              <div class="features-icon">
+                <img
+                  src="/assets/icons/optimized-build.svg"
+                  alt="Optimized Build"
+                />
+              </div>
+              <h3 class="features-title">Optimized Build</h3>
+              <p class="features-desc">
+                Pre-configured Rollup build with multi-page and library mode
+                support.
+              </p>
+            </div>
+          </li>
+          <li class="features-item">
+            <div class="features-box">
+              <div class="features-icon">
+                <img
+                  src="/assets/icons/universal-plugins.svg"
+                  alt="Universal Plugins"
+                />
+              </div>
+              <h3 class="features-title">Universal Plugins</h3>
+              <p class="features-desc">
+                Rollup-superset plugin interface shared between dev and build.
+              </p>
+            </div>
+          </li>
+          <li class="features-item">
+            <div class="features-box">
+              <div class="features-icon">
+                <img
+                  src="/assets/icons/fully-typed-apis.svg"
+                  alt="Fully Typed APIs"
+                />
+              </div>
+              <h3 class="features-title">Fully Typed APIs</h3>
+              <p class="features-desc">
+                Flexible programmatic APIs with full TypeScript typing.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <footer class="footer">
+        <p class="copy">Vite starter app with TailwindCSS</p>
+      </footer>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
